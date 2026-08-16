@@ -1,1 +1,38 @@
+# IAM Lifecycle Runbook: Meridian Trust Bank (Okta)
+<h2>Desisgn Principles</h2>
 
+  - <b>Group-Based Assignment Only:</b> Apps are assigned to groups, never to individual people. Strict group-to-app wiring prevents privilege creep and ensures clean automation.
+  - <b>Attribute-Driven Membership:</b> Group memberships are automatically assigned based on identity attributes (e.g., Departments) instead of being individually assigned by admins, speeding up the joiner, mover, leaver process.
+  - <b>Least-Privilege Admin:</b> Administrative access is restricted based on functional roles. Full configuration access is limited to IAM admins. Helpdesk admins are only given the specific access required to manage users and credentials, without full configuration rights.
+
+<h2>Joiner</h2>
+
+  - <b>Trigger:</b> 
+  - <b>Operator:</b> 
+  - <b>Required Attributes:</b>
+  - <b>Automated Actions:</b> 
+  - <b>Evidence Produced:</b>
+
+<h2>Mover</h2>
+
+  - <b>Trigger:</b> 
+  - <b>Operator:</b> 
+  - <b>Attribute Change:</b>
+  - <b>Automated Actions:</b> 
+  - <b>Evidence Produced:</b>
+
+<h2>Leaver</h2>
+
+  - <b>Trigger:</b> 
+  - <b>Operator:</b> 
+  - <b>Attribute Change:</b>
+  - <b>Automated Actions:</b> 
+  - <b>Evidence Produced:</b>
+
+<h2>Authentication Policy</h2>
+
+  - <b>MFA Enrollment:</b> 
+  - <b>Password Policy:</b> 
+  - <b>Attribute Change:</b>
+  - <b>Automated Actions:</b> 
+  - <b>Evidence Produced:</b>
