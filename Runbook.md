@@ -8,23 +8,24 @@
 <h2>Joiner</h2>
 
   - <b>Trigger:</b> A new employee is hired. ( Simulated by manual creation in Okta) (Typically done by HR Import or SCIM feed, ideally scheduled to activate on the start date)
-  - <b>Operator:</b> IAM Administrator
-  - <b>Required Attributes:</b> First name, Last name, Username/Email, and Department (e.g., "Lending" or "Payments")
-  - <b>Automated Actions:</b> The new user is assigned birthright access (All-Staff). Then the new user is automatically assigned to a role group and provisioned with relevant application access based on the department attribute entered when the user was created (e.g., "Lending" or "Payments").
-  - <b>Evidence Produced:</b>
+  - <b>Operator:</b> IAM Administrator or configured workflow
+  - <b>Required Attributes:</b> First name, Last name, Username/Email, and Department (e.g., "Lending" or "Payments") ( Typically populated in Universal Directory via mappings, may also include user title and direct manager)
+  - <b>Automated Actions:</b> The new user is assigned birthright access (All-Staff). Then the new user is automatically assigned to a role group based on the department attribute assigned when the user was created (e.g., "Lending" or "Payments"). The user will then be provisioned with relevant application access driven by the group assignment. SCIM pushes account creation to M365/Google Workspace (mailbox + license), Slack, etc. AD account created if AD-Integrated. Activation email sent; user sets password and enrolls in MFA at first sign-in.
+  - <b>Okta Workflow Extras:</b> Notify the manager, open an onboarding ticket, and add to distribution lists.
+  - <b>Evidence Produced:</b> System logs capturing the HR integration or workflow and the HRIS  import run ( Not included in this lab). Logs capturing account creation, group rules firing, and app assignment. Logs capturing the user's first login chain.
 
 <h2>Mover</h2>
 
-  - <b>Trigger:</b> 
-  - <b>Operator:</b> IAM Administrator
-  - <b>Attribute Change:</b>
+  - <b>Trigger:</b> An employee changes departments within the company ( Simulated by manual reassignment on Okta.) 
+  - <b>Operator:</b> IAM Administrator or configured workflow
+  - <b>Attribute Change:</b> The user is removed from  the old department's group and added to the new one.
   - <b>Automated Actions:</b> 
   - <b>Evidence Produced:</b>
 
 <h2>Leaver</h2>
 
-  - <b>Trigger:</b> An employee resigns or is terminated from the organization.
-  - <b>Operator:</b> IAM Administrator
+  - <b>Trigger:</b> An employee resigns or is terminated from the organization. ( Simulated by manual deactivation on Okta.) (Typically done by downstream provisioning. The SCIM pushes deactivate/suspend to connected apps and User management dashboards.)
+  - <b>Operator:</b> IAM Administrator or configured workflow
   - <b>Attribute Change:</b> Account deactivation
   - <b>Automated Actions:</b> Group membership removal, MFA factors reset, OAuth access/refresh tokens revoked, API tokens revoked, AD account disabled, and password scrambled, if AD-integrated.
   - <b>Okta workflows extras (Not added into Lab):</b> Notify manager/IT, open a ServiceNow Ticket, delegate mailbox, transfer Drive files, reclaim licenses.
