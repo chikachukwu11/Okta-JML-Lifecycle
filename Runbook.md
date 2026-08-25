@@ -19,8 +19,9 @@
   - <b>Trigger:</b> An employee changes departments within the company ( Simulated by manual reassignment on Okta.) 
   - <b>Operator:</b> IAM Administrator or configured workflow
   - <b>Attribute Change:</b> The user is removed from  the old department's group and added to the new one.
-  - <b>Automated Actions:</b> 
-  - <b>Evidence Produced:</b>
+  - <b>Automated Actions:</b> HRIS updates the department attribute and syncs to the Okta Profile in Universal Directory, the profile update triggers everything after (Not included in Lab). Group rules will then be re-evaluated, and the user is automatically removed from the old department's group and added to the new department's group (Simulated manually). App assignments follow the groups, so the old department apps are deprovisioned, and the new department's apps are provisioned (via SCIM if set up). Attribute updates push to apps the user keeps. AD/OU chnages, if hybrid.
+  - <b>Okta Workflow Extras:</b> Notify old and new manager, open a ticket, and trigger review of anything manually assigned.
+  - <b>Evidence Produced:</b> System logs capturing the department chnange via HR intergration. Logs for the group membership and group rule changes. Logs showing application membership swap, application provision, application deprovision, and profile updates to retained apps.
 
 <h2>Leaver</h2>
 
