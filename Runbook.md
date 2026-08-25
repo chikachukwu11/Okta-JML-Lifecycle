@@ -45,6 +45,4 @@
 
 <h2>Lab Shortcuts vs. Production</h2>
 
-  - <b>Admin Set Passwords:</b> 
-  - <b>Bookmark Apps:</b> 
-  - <b>Fake Email Domain:</b>
+Training	built	in	a	free	Okta	Integrator	org	on	a	fictional	scenario. Bookmark	apps	stand	in	for	federated	apps: assignment	logic	is	identical, SAML/SCIM	federation	requires	control	of	the	target	application. In production,	the	attribute	changes	I	made	by	hand	arrive	from	the	HR	system. The	automation,	policies,	and	audit	trail	are	real	Okta.
