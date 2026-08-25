@@ -9,3 +9,7 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 -	MFA	enrollment	policy	and	hardened	password	policy
 -	Least-privilege	delegated	administration
 -	Audit	evidence	for	every	lifecycle	event	from	the	Okta	System	Log
+
+## Part 0 Create Okta Org
+  - Step 1: Sign up and open the Admin console.
+    - Go	to developer.okta.com/signup.	The	page	shows	two	products	side	by	side:	Auth0	Platform	and	Okta	Platform. Scroll down	to	the	section	headed	"Access	the	Okta	Integrator	Free	Plan"	and	click	" Sign	up	for free.	
