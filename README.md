@@ -14,4 +14,6 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
   - Step 1: Sign up and open the Admin console.
     - Go	to developer.okta.com/signup.	The	page	shows	two	products	side	by	side:	Auth0	Platform	and	Okta	Platform. Scroll down	to	the	section	headed	"Access	the	Okta	Integrator	Free	Plan"	and	click	" Sign	up	for free.	
 
-<img src="images/IAM-1.png" height="80%" width="80%" alt="AzureSiemLab"/>
+<img src="images/IAM-1.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-2.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-5.png" height="80%" width="80%" alt="JML-Lifecycle"/>
