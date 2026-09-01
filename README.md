@@ -64,3 +64,9 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-30.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-31.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-32.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+  - Step 7: The mover
+    - The new employee transfers from the lending department to the payments department.
+<img src="images/IAM-33.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-34.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-35.png" height="80%" width="80%" alt="JML-Lifecycle"/>
