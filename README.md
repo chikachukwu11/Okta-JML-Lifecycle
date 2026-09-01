@@ -17,3 +17,19 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-1.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-2.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-5.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+## Build groups and apps
+  - Step 2: Create role groups
+    - Create four groups that mirror the fictional bank structure
+<img src="images/IAM-6.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+  - Step 3: Add the applications
+    - Add the three applications that stand in for the fictional bank's systems.
+<img src="images/IAM-7.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-8.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-9.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-10.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-11.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-12.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-13.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-14.png" height="80%" width="80%" alt="JML-Lifecycle"/>
