@@ -42,3 +42,13 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-18.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-19.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-20.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+## Automate Everything: create rules
+  - Step 5: Create rules
+    - Create rules that place personnel into groups based on their roles so that group membership is automated.
+<img src="images/IAM-20.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-21.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-22.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-23.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-24.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-25.png" height="80%" width="80%" alt="JML-Lifecycle"/>
