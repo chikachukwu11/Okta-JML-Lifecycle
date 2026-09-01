@@ -70,3 +70,12 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-33.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-34.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-35.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+  - Step 8: The leaver
+    -After joining and transferring departments later on, the employee has decided to resign and pursue other opportunities.
+    -Log in as the previous employee, and the login fails.
+<img src="images/IAM-36.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-37.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-38.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-39.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-40.png" height="80%" width="80%" alt="JML-Lifecycle"/>
