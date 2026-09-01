@@ -52,3 +52,15 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-23.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-24.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-25.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+## Run the lifecycle
+  - Step 6: The joiner
+    - Hire the first employee into the lending department.
+    - Log in as the new employee and verify they have the correct app and group permissions.
+<img src="images/IAM-26.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-27.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-28.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-29.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-30.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-31.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-32.png" height="80%" width="80%" alt="JML-Lifecycle"/>
