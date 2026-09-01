@@ -33,3 +33,12 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-12.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-13.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-14.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+  - Step 4: Link the apps to the groups
+    - Assign each app to groups, not people.
+<img src="images/IAM-15.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-16.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-17.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-18.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-19.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-20.png" height="80%" width="80%" alt="JML-Lifecycle"/>
