@@ -79,3 +79,23 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-38.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-39.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-40.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+## Harden: MFA, password policy, least admin privilege
+  - Step 9: Make multifactor authentication mandatory.
+<img src="images/IAM-41.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-42.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-43.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+  - Step 10: Strengthen the password policy
+    - Default password policy: minimum length 12+, does not contain part of username, requires uppercase, lowercase, number, special symbol; enable common password check; set lockout after 10 failed attempts.
+<img src="images/IAM-44.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-45.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-46.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
+  - Step 11: Delegate helpdesk admin
+    - Create a new helpdesk employee with no department
+    - Add an administrator, grant the helpdesk administrator role only
+<img src="images/IAM-47.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-48.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-49.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+
