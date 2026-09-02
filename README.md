@@ -67,12 +67,15 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-30.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-31.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-32.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-51.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-52.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 
   - Step 7: The mover
     - The new employee transfers from the lending department to the payments department.
 <img src="images/IAM-33.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-34.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-35.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-53.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 
   - Step 8: The leaver
     - After joining and transferring departments later on, the employee has decided to resign and pursue other opportunities.
@@ -82,6 +85,7 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-38.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-39.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-40.png" height="80%" width="80%" alt="JML-Lifecycle"/>
+<img src="images/IAM-54.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 
 ## Harden: MFA, password policy, least admin privilege
   - Step 9: Make multifactor authentication mandatory.
