@@ -106,3 +106,7 @@ I	built	an	automated	joiner-mover-leaver	identity	lifecycle	in	a	free	Okta org,	
 <img src="images/IAM-48.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 <img src="images/IAM-49.png" height="80%" width="80%" alt="JML-Lifecycle"/>
 
+## Lab Shortcuts vs. Production</h2>
+
+Training	built	in	a	free	Okta	Integrator	org	on	a	fictional	scenario. Bookmark	apps	stand	in	for	federated	apps: assignment	logic	is	identical, SAML/SCIM	federation	requires	control	of	the	target	application. In production,	the	attribute	changes	I	made	by	hand	arrive	from	the	HR	system. The	automation,	policies,	and	audit	trail	are	real	Okta.
+
